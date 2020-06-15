@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Get things into a clean state.  Ignore errors if things were already clean
-rm -rf out &>/dev/null
 git branch gh-pages &>/dev/null
 git worktree prune
 git worktree add out gh-pages

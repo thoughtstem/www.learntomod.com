@@ -22,7 +22,7 @@
 	style: "background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
 	id: "checkout-button-learntomod(1-year)_2_1year_29.99"
 	role: "link"
-	"Checkout")
+	"Proceed to Checkout")
       (div id: "error-message"))
 
     (script ([dummy
@@ -126,8 +126,8 @@
 	    (h1 "Start Modding Minecraft for $29.99!")
             (p "Hundreds of Minecraft Videos, Tutorial Lessons, and Badges."))
 	  (main 
-	    (p "After you purchase your recurring 1-yr LearnToMod subscription below, we’ll send you an access key by e-mail (to the email you enter below) with login instructions. Use your access key to create a new LearnToMod account, and start modding today!")
-	    (p "To opt out of autorenewal, email contat@learntomod.com with your receipt at any time")
+	    (p "After you purchase your recurring 1-yr LearnToMod subscription below, we’ll send you an access key by e-mail (to the email you enter during purchase) with login instructions. Use your access key to create a new LearnToMod account, and start modding today!")
+	    (p "To opt out of autorenewal, email contact@learntomod.com with your receipt at any time")
             (buy-button)))))
 
 (render #:to "out"
