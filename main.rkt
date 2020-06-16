@@ -142,4 +142,7 @@
 
 (render #:to "out"
 	(list (pos)
-	      (success)))
+	      (success)
+	      (change-page-path
+		(success)
+		(list "success"))))
