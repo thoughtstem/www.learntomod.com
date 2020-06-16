@@ -138,8 +138,19 @@
 	  (ltm-nav)
 	  (page-header
 	    (h1 "Success!")
-            (p "Your access key should arrive by email shortly.  If not, contact us at contact@thoughtstem.com")))))
+            (p "Your access key should arrive by email shortly.  If not, contact us at contact@learntomod.com")))))
+
+(define (canceled)
+  (page canceled.html
+        (content 
+          #:head 
+	  (list (include-css "wp-content/themes/learntomod/style.css"))
+	  (ltm-nav)
+	  (page-header
+	    (h1 "Try again later!")
+            (p "It looks like you didn't complete your purchase.  Contact us at contact@learntomod.com if you're having trouble.")))))
 
 (render #:to "out"
 	(list (pos)
-	      (success)))
+	      (success)
+	      (canceled)))
