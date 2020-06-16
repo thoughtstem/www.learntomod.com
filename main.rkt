@@ -130,5 +130,16 @@
 	    (p "To opt out of autorenewal, email contact@learntomod.com with your receipt at any time")
             (buy-button)))))
 
+(define (success)
+  (page success.html
+        (content 
+          #:head 
+	  (list (include-css "wp-content/themes/learntomod/style.css"))
+	  (ltm-nav)
+	  (page-header
+	    (h1 "Success!")
+            (p "Your access key should arrive by email shortly.  If not, contact us at contact@thoughtstem.com")))))
+
 (render #:to "out"
-	(list (pos)))
+	(list (pos)
+	      (success)))
