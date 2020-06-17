@@ -59,50 +59,62 @@
   )
 
 (define (ltm-nav)
-  @html/inline{
-    @~a{
-  	<header id="header" class="cf">
-		<a href="index.html" id="logo"><img src="wp-content/themes/learntomod/images/logo.svg" alt="LearnToMod" /></a>
-		<nav>
-			<a href="index.html#" id="mobile-menu"><i class="icons8-menu"></i></a>
-			<ul id="menu-main-menu" class="menu"><li id="menu-item-617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-617"><a>Product</a>
-<ul class="sub-menu">
-	<li id="menu-item-612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612"><a href="index.html@"@"p=15.html">Features</a></li>
-	<li id="menu-item-765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-765"><a href="features/index.html#pricing">Pricing</a></li>
-	<li id="menu-item-1714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="index.html@"@"p=1545.html">Online Courses</a></li>
-</ul>
-</li>
-<li id="menu-item-471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-471"><a>Parents &#038; Educators</a>
-<ul class="sub-menu">
-	<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="index.html@"@"p=87.html">Parents</a></li>
-	<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="index.html@"@"p=104.html">Educators</a></li>
-</ul>
-</li>
-<li id="menu-item-472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-472"><a>Community</a>
-<ul class="sub-menu">
-	<li id="menu-item-157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-157"><a href="http://forum.learntomod.com/">Official LearnToMod Forum <i class="icons8-external-link"></i></a></li>
-	<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="blog/index.html">Blog</a></li>
-</ul>
-</li>
-<li id="menu-item-618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-618"><a>Our Company</a>
-<ul class="sub-menu">
-	<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="index.html@"@"p=6.html">About Us</a></li>
-	<li id="menu-item-158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-158"><a href="about/index.html#block2">Our Team</a></li>
-	<li id="menu-item-770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-770"><a href="index.html@"@"p=767.html">Sponsors &#038; Partners</a></li>
-</ul>
-</li>
-<li id="menu-item-473" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-473"><a>Support</a>
-<ul class="sub-menu">
-	<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="index.html@"@"p=160.html">FAQ</a></li>
-	<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="index.html@"@"p=162.html">Contact Us</a></li>
-</ul>
-</li>
-<li id="menu-item-32" class="divider account menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="https://mod.learntomod.com">Login</a></li>
-<li id="menu-item-29" class="start menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="index.html@"@"p=24.html">Sign Up</a></li>
-</ul>		</nav>
-	</header>
- 
-  }}
+  (header id: "header" class: "cf"
+          (a href: "index.html" id: "logo"
+             (img src: "wp-content/themes/learntomod/images/logo.svg" alt: "LearnToMod Logo"))
+          (nav
+            (a href: "index.html@p=104.html#" id: "mobile-menu"
+               (i class: "icons8-menu"))
+            (ul id: "menu-main-menu" class: "menu"
+                (li id: "menu-item-617" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-617"
+                    (a "Product")
+                    (ul class: "sub-menu"
+                        (li id: "menu-item-612" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-612"
+                            (a href: "index.html@p=15.html" "Features"))
+                        (li id: "menu-item-765" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-765"
+                            (a href: "http://www.learntomod.com/features/#pricing" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://www.learntomod.com/features/#pricing', 'Pricing');" "Pricing"))
+                        (li id: "menu-item-1714" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"
+                            (a href: "index.html@p=1545.html" "Online Courses"))))
+                (li id: "menu-item-471" class:"menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-471"
+                   (a "Parents & Educators")
+                   (ul class: "sub-menu"
+                       (li id: "menu-item-93" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-93"
+                           (a href: "index.html@p=87.html" "Parents"))
+                       (li id: "menu-item-107" class: "menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-104 current_page_item menu-item-107"
+                           (a href: "index.html@p=104.html" "Educators"))))
+                (li id: "menu-item-472" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-472"
+                    (a "Community")
+                    (ul class: "sub-menu"
+                        (li id: "menu-item-157" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-157"
+                            (a href: "http://forum.learntomod.com/" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://forum.learntomod.com/', 'Official LearnToMod Forum ');" "Official LearnToMod Forum"
+                               (i class: "icons8-external-link")))
+                        (li id: "menu-item-156" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-156"
+                            (a href: "blog/index.html" "Blog"))))
+                (li id: "menu-item-618" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-618"
+                   (a "Our Company")
+                   (ul class: "sub-menu"
+                       (li id: "menu-item-26" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+                           (a href: "index.html@p=6.html" "About Us"))
+                       (li id: "menu-item-158" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-158"
+                           (a href: "http://www.learntomod.com/about/#block2" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://www.learntomod.com/about/#block2', 'Our Team');" "Our Team"))
+                       (li id: "menu-item-770" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-770"
+                           (a href: "index.html@p=767.html" "Sponsors & Partners"))))
+                (li id: "menu-item-473" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-473"
+                   (a "Support")
+                   (ul class: "sub-menu"
+                       (li id: "menu-item-165" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-165"
+                           (a href: "index.html@p=160.html" "FAQ"))
+                       (li id: "menu-item-164" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-164"
+                           (a href: "index.html@p=162.html" "Contact Us"))))
+                (li id: "menu-item-32" class:"divider account menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
+                    (a href: "https://mod.learntomod.com" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://mod.learntomod.com', 'Login');" "Login"))
+                (li id: "menu-item-29" class:"start menu-item menu-item-type-post_type menu-item-object-page menu-item-29"
+                    (a href: "https://www.learntomod.com/sign-up-2.html" "Sign Up")
+                    )
+                )
+            )
+          )
+  
   )
 
 (define (ltm-footer)
