@@ -1,4 +1,7 @@
 
+## Deployment
+
+Run `./deploy.sh`, which pushes the contents of `out/` to the `gh-pages` branch, which is what Github is configured to serve.
 
 ## Helpful tips 
 

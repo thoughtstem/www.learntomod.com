@@ -5,7 +5,6 @@
 (require website-js
 	 "./util.rkt")
 	 
-
 (define (for-educators)
   (page for-educators.html
         (content 
