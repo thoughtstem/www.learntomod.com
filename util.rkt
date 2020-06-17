@@ -2,7 +2,13 @@
 
 (provide ltm-nav
 	 page-header
-	 main-jumbo)
+	 main-jumbo
+         main-content
+         gray-jumbo
+         green-jumbo
+         map-jumbo
+         resources-jumbo
+         )
 
 (require website-js
 	 (prefix-in html: (only-in website script)))
@@ -11,6 +17,44 @@
   (div id: "page-header" 
        (div class: "container cf"
 	    content )))
+
+(define (main-content . content)
+  (div id: "main"
+       content
+       )
+  )
+
+(define (gray-jumbo #:id [section-id "block1"] . content)
+  (section id: section-id class: "section standard-content"
+           (div class: "container cf"
+                content
+                )
+           )
+  )
+
+(define (green-jumbo #:id [section-id "block1"] . content)
+  (section id: section-id class: "section cta-basic"
+           (div class: "container cf"
+                content
+                )
+           )
+  )
+
+(define (map-jumbo #:id [section-id "block1"] . content)
+  (section id: section-id class: "section map"
+           (div class: "container cf"
+                content
+                )
+           )
+  )
+
+(define (resources-jumbo #:id [section-id "block1"] . content)
+  (section id: section-id class: "section resources"
+           (div class: "container cf"
+                content
+                )
+           )
+  )
 
 (define (ltm-nav)
   @html/inline{

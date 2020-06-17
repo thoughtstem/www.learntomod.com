@@ -15,15 +15,15 @@ function preloadSupported() {
 //]]>
 </script><div id="page-header"><div class="container cf"><h1>Start Modding Minecraft for $29.99!</h1><p>Hundreds of Minecraft Videos, Tutorial Lessons, and Badges.</p></div></div><div id="main" class="gray page"><div class="container cf"><p>After you purchase your recurring 1-yr LearnToMod subscription below, we’ll send you an access key by e-mail (to the email you enter during purchase) with login instructions. Use your access key to create a new LearnToMod account, and start modding today!</p><p>To opt out of autorenewal, email contact@learntomod.com with your receipt at any time</p><div><button style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em" id="checkout-button-learntomod(1-year)_2_1year_29.99" role="link">Proceed to Checkout</button><div id="error-message"></div></div><script>
 //<![CDATA[
-window.ns365_dummy=(function() { 
-              var stripe = Stripe(' pk_test_TI5kNWFmWEn7pNgnFl7HkHxW '.trim()); 
+window.ns422_dummy=(function() { 
+              var stripe = Stripe(' pk_live_MmLDMcIYCNUlexcExwZ0sHdM '.trim()); 
 
               var checkoutButton = document.getElementById('checkout-button-learntomod(1-year)_2_1year_29.99'); 
               checkoutButton.addEventListener('click', function () { 
                                               // When the customer clicks on the button, redirect 
                                               // them to Checkout. 
                                               stripe.redirectToCheckout({ 
-                                                                         lineItems: [{price: ' learntomodsubscription_2_1year_29.99 '.trim(), quantity: 1}], 
+                                                                         lineItems: [{price: ' learntomod(1-year)_2_1year_29.99 '.trim(), quantity: 1}], 
                                                                          mode: 'subscription', 
                                                                          // Do not rely on the redirect to the successUrl for fulfilling 
                                                                          // purchases, customers may not always reach the success_url after 
