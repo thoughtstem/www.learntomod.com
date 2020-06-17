@@ -32,4 +32,5 @@
               (h2 "ADDITIONAL TEACHER RESOURCES")
               )
             )
+          (ltm-footer)
           )))

@@ -1,6 +1,7 @@
 #lang at-exp racket
 
-(provide ltm-nav
+(provide 
+         ltm-nav
 	 page-header
 	 main-jumbo
          main-content
@@ -8,6 +9,7 @@
          green-jumbo
          map-jumbo
          resources-jumbo
+         ltm-footer
          )
 
 (require website-js
@@ -101,6 +103,81 @@
 	</header>
  
   }}
+  )
+
+(define (ltm-footer)
+  (footer id: "footer" class: "container cf"
+          (nav id: "footer-links"
+               (ul id: "menu-footer-menu" class: "menu"
+                   (li id: "menu-item-474" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-474"
+                       (a "Product")
+                       (ul class: "sub-menu"
+                           (li id: "menu-item-131" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-131"
+                               (a href: "https://www.learntomod.com/features/#section1" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section1', 'Modding Tutorials');" "Modding Tutorials"))
+                           (li id: "menu-item-132" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-132"
+                               (a href: "https://www.learntomod.com/features/#section2" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section2', 'Vox-L Game Engine');" "Vox-L Game Engine"))
+                           (li id: "menu-item-133" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-133"
+                               (a href: "https://www.learntomod.com/features/#section3" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section3', 'Private Minecraft Servers');" "Private Minecraft Servers"))
+                           (li id: "menu-item-134" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-134"
+                               (a href: "https://www.learntomod.com/features/#section4" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section4', 'Texture Pack Painter');" "Texture Pack Painter"))
+                           (li id: "menu-item-135" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-135"
+                               (a href: "https://www.learntomod.com/features/#section5" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section5', 'Schematics Builder');" "Schematics Builder"))
+                           (li id: "menu-item-1732" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"
+                               (a href: "index.html@p=1545.html" "Online Courses"))))
+                   (li id: "menu-item-475" class: "menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-475"
+                       (a "Parents & Educators")
+                       (ul class: "sub-menu"
+                          (li id: "menu-item-137" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-137"
+                              (a href: "index.html@p=87.html" "Parents"))
+                          (li id: "menu-item-136" class: "menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-104 current_page_item menu-item-136"
+                              (a href: "index.html@p=104.html" "Educators"))))
+                   (li id: "menu-item-476" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-476"
+                       (a "Community")
+                       (ul class: "sub-menu"
+                           (li id: "menu-item-152" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-152"
+                               (a href: "http://forum.learntomod.com/" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://forum.learntomod.com/', 'Official LearnToMod Forum ');" "Official LearnToMod Forum"
+                                  (i class: "icons8-external-link")))
+                           (li id: "menu-item-155" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-155"
+                               (a href: "blog/index.html" "News & Updates"))))
+                   (li id: "menu-item-37" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-37"
+                       (a href: "index.html@p=6.html" "Our Company")
+                       (ul class: "sub-menu"
+                           (li id: "menu-item-168" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-168"
+                               (a href: "http://www.learntomod.com/about/#block2" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://www.learntomod.com/about/#block2', 'Our Team');" "Our Team"))
+                           (li id: "menu-item-769" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-769"
+                               (a href: "index.html@p=767.html" "Sponsors & Partners"))))
+                   (li id: "menu-item-477" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-477"
+                       (a href: "index.html@p=104.html#" "Support")
+                       (ul class: "sub-menu"
+                           (li id: "menu-item-167" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
+                               (a href: "index.html@p=160.html" "FAQ"))
+                           (li id: "menu-item-166" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-166"
+                               (a href: "index.html@p=162.html" "Contact Us")))))
+               )
+          (div id: "sub-footer" class: "cf"
+               (div style: "float:left;"
+                    (p style: "margin-left: 14px; margin-bottom: -10px;" "Created by")
+                    (a href: "http://multidimensionalgames.com" target: "_blank"
+                       (img width: "300" src: "wp-content/themes/learntomod/images/logo_text.svg" alt: "Multi-Dimensional Games Logo")
+                       ))
+               (div id: "social"
+                    (a href: "https://www.facebook.com/learntomod"
+                       (i class: "icons8-facebook-filled"))
+                    (a href: "https://twitter.com/learntomod"
+                       (i class: "icons8-twitter-filled"))
+                    (a href: "https://www.youtube.com/channel/UCp19G1Eo1vX4NWTaMxerawg"
+                       (i class: "icons8-youtube")))
+               (nav
+                 (ul id: "menu-sub-footer-menu" class: "menu"
+                     (li id: "menu-item-76" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-76"
+                         (a href: "index.html@p=68.html" "Community Guidelines"))
+                     (li id: "menu-item-75" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                         (a href: "index.html@p=70.html" "Privacy Policy"))
+                     (li id: "menu-item-74" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-74"
+                         (a href: "index.html@p=72.html" "Terms of Use"))))
+               (p style: "clear:both; padding-left: 10px; padding-top: 10px; color: gray; font-size: 14px;" "LearnToMod IS NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.")
+               )
+          )
   )
 
 (define (main-jumbo . content)
