@@ -22,11 +22,7 @@
 	 
 (define (pos)
   (page sign-up-2.html
-        (content 
-          #:head 
-	  (list (include-css "wp-content/themes/learntomod/style.css")
-		(html:script src: "https://js.stripe.com/v3/"))
-	  (ltm-nav)
+        (ltm-content 
 	  (page-header
 	    (h1 "Start Modding Minecraft for $29.99!")
             (p "Hundreds of Minecraft Videos, Tutorial Lessons, and Badges."))
@@ -37,20 +33,14 @@
 
 (define (success)
   (page success.html
-        (content 
-          #:head 
-	  (list (include-css "wp-content/themes/learntomod/style.css"))
-	  (ltm-nav)
+        (ltm-content 
 	  (page-header
 	    (h1 "Success!")
             (p "Your access key should arrive by email shortly.  If not, contact us at contact@learntomod.com")))))
 
 (define (canceled)
   (page canceled.html
-        (content 
-          #:head 
-	  (list (include-css "wp-content/themes/learntomod/style.css"))
-	  (ltm-nav)
+        (ltm-content 
 	  (page-header
 	    (h1 "Try again later!")
             (p "It looks like you didn't complete your purchase.  Contact us at contact@learntomod.com if you're having trouble.")))))

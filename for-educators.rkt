@@ -7,10 +7,7 @@
 	 
 (define (for-educators)
   (page for-educators.html
-        (content 
-          #:head 
-          (list (include-css "wp-content/themes/learntomod/style.css"))
-          (ltm-nav)
+        (ltm-content 
           (page-header
             (h1 "LearnToMod is Great for Educators!"))
           (main-content
@@ -29,8 +26,5 @@
                         (h2 "How Can You Support LearnToMod?")
                         )
             (resources-jumbo #:id "block6"
-              (h2 "ADDITIONAL TEACHER RESOURCES")
-              )
-            )
-          (ltm-footer)
+              (h2 "ADDITIONAL TEACHER RESOURCES")))
           )))
