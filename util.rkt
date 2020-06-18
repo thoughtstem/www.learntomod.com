@@ -71,7 +71,7 @@
       (html:script src: "wp-content/themes/learntomod/js/bxslider/jquery.bxslider.js@ver=5.1.4")
       (html:script src: "wp-content/themes/learntomod/js/scripts.js@ver=5.1.4")
       head-content)
-    (body class: (string-append"page-template page-template-tpl-blocks page-template-tpl-blocks-php page " body-classes)
+    (body class: (string-append "page-template " body-classes)
       (div id: "wrapper"
 	   (ltm-nav)
 	   stuff

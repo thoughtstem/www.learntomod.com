@@ -10,7 +10,7 @@
 (define (for-educators)
   (page for-educators.html
         (ltm-content 
-          #:body-classes "page-id-104"
+          #:body-classes "page-template-tpl-blocks page-template-tpl-blocks-php page page-id-104"
           (page-header
 	    (img alt: "" src: "wp-content/uploads/2016/03/WebBanner-ClearBackground_ParentVertical-e1458841641347.png") 
             (h1 "LearnToMod is Great for Educators!") 
