@@ -23,12 +23,16 @@
 (define (pos)
   (page sign-up-2.html
         (ltm-content 
-	  (page-header
+          #:head
+          (html:script src: "https://js.stripe.com/v3/")
+	  #:body-classes
+          "page-template-tpl-faq page-template-tpl-faq-php page"
+          (page-header
 	    (h1 "Start Modding Minecraft for $29.99!")
             (p "Hundreds of Minecraft Videos, Tutorial Lessons, and Badges."))
 	  (main-jumbo
 	    (p "After you purchase your recurring 1-yr LearnToMod subscription below, we’ll send you an access key by e-mail (to the email you enter during purchase) with login instructions. Use your access key to create a new LearnToMod account, and start modding today!")
-	    (p "To opt out of autorenewal, email contact@learntomod.com with your receipt at any time")
+	    (p "To opt out of auto-renewal, email contact@learntomod.com with your receipt at any time")
             (buy-button)))))
 
 (define (success)
