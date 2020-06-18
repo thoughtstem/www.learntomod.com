@@ -14,26 +14,22 @@
           (page-header
 	    (img alt: "" src: "wp-content/uploads/2016/03/WebBanner-ClearBackground_ParentVertical-e1458841641347.png") 
             (h1 "LearnToMod is Great for Educators!") 
-            (p "By partnering with the National Science Foundation, we're able to bring LearnToMod to all teachers at 0 cost.") 
-            (p i
-               (a class: "button" href: "http://www.learntomod.com/teacher-sign-up/" "Start Your Minecraft Education"))
+            (p "We've worked with teachers all over the world for years to teach computer science education!") 
 	    )
           (main-content
             (gray-jumbo #:id "block1"
                         (div class: "image" 
                              (img alt: "" src: "wp-content/uploads/2016/03/content3.jpg"))
                         (div class: "content" 
-                            (h2 "Teach Computer Science for Free With Us")
-                            (p "We offer the LearnToMod software for free to all educators (for-profit and non-profit, alike) to use with their students. We also offer it free to libraries and educational organizations like coding clubs for Minecraft Education.")
+                            (h2 "Teach Computer Science With Us")
+                            (p "We offer the LearnToMod software at bulk discounts to all educators (for-profit and non-profit, alike) to use with their students. That includes libraries and educational organizations like coding clubs.")
                             (h3 "Teacher Account Features")
                             (ul class: "checks" 
-                                (li "Grant your students access to create their own free LearnToMod accounts. Students will have access to all the same features available in the paid version of LearnToMod, including the 250+ computer science badges")
-                                (li "Separate students into classes")
+                                (li "Separate students into classes. Students will have access to all the same features available in the paid version of LearnToMod, including the 250+ computer science badges")
                                 (li "Monitor student progress as they progress through" nbsp "badges")
-                                (li "Until the class ends, students have unlimited, free access to LearnToMod and a few hours of access per day to our Minecraft servers, but only during class-time")
-                                (li "Buy " (a href: "https://minecraft.net/" target: "_blank" "Minecraft") " accounts for your classroom," nbsp "or use our free, built-in Vox-L testing tool")) 
+                                (li "You can either buy " (a href: "https://minecraft.net/" target: "_blank" "Minecraft") " accounts for your classroom, or use our free, built-in Vox-L testing tool")) 
                             (p 
-                              (a class: "button" href: "http://www.learntomod.com/teacher-sign-up/" "Get Started Now")))
+                              (a class: "button" href: "mailto:contact@learntomod.com" target: "_blank" "Email Us About Bulk Pricing")))
                         (blockquote 
                           (div class: "quote" "\nWe love the LearnToMod project, and our students and campers love it too! It's a very powerful way to combine learning with fun! Just like hiding spinach in the spaghetti sauce...!\t\t\t\t\t\t")
                           (div class: "author" "\n-Shannon Landin, Codecraft Lab (Melbourne, Florida)\t\t\t\t\t\t"))	
@@ -44,8 +40,7 @@
                         (div class: "content" 
                              (h2 "LearnToMod: Motivating Student Learning")
                              (p "Every aspect of LearnToMod was designed specifically with learning in mind. We’ve" nbsp "used our" nbsp "years of research experience in Computer Science Education to design an engaging, educational experience for you and your students! Plus, from our own experience teaching hundreds of kids " (a href: "http://www.thoughtstem.com/home" target: "_blank" "around San Diego") ", we can attest that LearnToMod really does get kids excited about coding!")
-                             (p "To get the latest tips on motivating student learning, join" nbsp "our free " (a href: "https://www.coursera.org/learn/learntomod" target: "_blank" "Coursera course" nbsp "for Educators") " using LearnToMod." nbsp "Get help from Computer Science Education Guru, Dr. Sarah Guthals, and get access to lesson plans developed by the LearnToMod Educator community!")
-                             (p (a class: "button" href: "https://www.coursera.org/learn/learntomod" target: "_blank" "Join the Coursera Course")))
+                             )
                         (blockquote 
                           (div class: "quote" "As a teacher, I appreciate a platform that gives me support when I need it, and enables me to assign my own mod challenges for students to solve.")
                           (div class: "author" "-Melanie Kusmik, TechVenture Kids (Issaquah, WA)")) 
@@ -54,26 +49,18 @@
             (green-jumbo #:id "block3"
                          (h2)
                          (h2 style: "text-align: center;" "Get Your Teacher Account " "&" " Start Your #MinecraftEd")
-                         (p style: "text-align: center;" "Fill out our online form and within 48 hours you’ll receive a free LearnToMod teacher access key that you can use in your classroom, along with more instructions about how to use your account.") 
-                         (p style: "text-align: center;" (a class: "button" href: "http://www.learntomod.com/teacher-sign-up/" "Get Started Today " (i class: "icons8-forward")))  
+                         (p style: "text-align: center;" "You can purchase a LearnToMod account today! Email us so that we can upgrade your account to a teacher account and send you more information about bulk pricing for your students!") 
+                         (p style: "text-align: center;" (a class: "button" href: "mailto:contact@learntomod.com" "Get Started Today " (i class: "icons8-forward")))  
                          
                          )
-            (map-jumbo #:id "block4"
+            (map-jumbo #:id "block4" #:style "margin-bottom:0px;" 
                        (h2 "Educators in Over 70 Countries Use LearnToMod to Teach Coding")
                        (div id: "map")
                       ;;SCRIPT FOR GOOGLE MAP MISSING 
                        )
-            (gray-jumbo #:id "block5"
-                        (div class: "image" 
-                             (img alt: "" src: "wp-content/uploads/2016/03/parent-and-child-on-computer.jpg"))
-                        (div class: "content"
-                             (h2 "How Can You Support" nbsp "LearnToMod?") 
-                             (p "Although the NSF has helped to fund LearnToMod’s early" nbsp "development, subscription purchases of the software help fund our developers so that we can continue to release new material that’s engaging for students!")
-                             (p "We hope that you’ll encourage your students to " (a href: "http://www.learntomod.com/sign-up/" "purchase") nbsp "a copy of LearnToMod after your class ends, so that they can continue to learn and create" nbsp "at home! These purchases also allow us" nbsp "to create new CS curriculum and new classroom tools.")) 
-                        )
             (resources-jumbo #:id "block6"
               (h2 "ADDITIONAL TEACHER RESOURCES")
-              (ul
+              (ul style: "display:flex; flex-direction:row; justify-content: center;"
                 (li
                   (a href: "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5012469068/original/Guide_to_LearnToMod_Teacher_Accounts_Apr2015.pdf?AWSAccessKeyId=AKIAJ2JSYZ7O3I4JO6DA&Expires=1461344937&Signature=bDNiZt5sQm%2B1mF35t5BOQOzrPPI%3D&response-content-type=application%2Fpdf" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/LTM-Teachers-Guide.png" alt: "LTM Teachers Guide")
@@ -90,12 +77,6 @@
                   (a href: "http://www.learntomod.com/parents-educators/parents/#block5" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/book_border.png" alt: "book cover for modding minecraft for dummies book")
                     "Looking for a Classroom Textbook? Minecraft Modding for Kids"
-                    )
-                  )
-                (li
-                  (a href: "https://www.coursera.org/learn/learntomod" target: "_blank"
-                    (img src: "wp-content/uploads/2016/03/Coursera_Course_new_new.png" alt: "LTM Coursera Course Logo")
-                    "Curriculum, Pedagogy: LearnToMod for Educators Coursera Community"
                     )
                   )
                 (li

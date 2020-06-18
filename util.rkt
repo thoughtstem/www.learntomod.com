@@ -43,8 +43,8 @@
            )
   )
 
-(define (map-jumbo #:id [section-id "block1"] . content)
-  (section id: section-id class: "section map"
+(define (map-jumbo #:id [section-id "block1"] #:style [styles ""] . content)
+  (section id: section-id class: "section map" style: styles
            (div class: "container cf"
                 content
                 )
@@ -101,7 +101,7 @@
 			  (li id: "menu-item-93" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-93"
 			      (a href: "index.html@p=87.html" "Parents"))
 			  (li id: "menu-item-107" class: "menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-104 current_page_item menu-item-107"
-			      (a href: "index.html@p=104.html" "Educators"))))
+			      (a href: "for-educators.html" "Educators"))))
 		  (li id: "menu-item-472" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-472"
 		      (a "Community")
 		      (ul class: "sub-menu"
