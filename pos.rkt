@@ -8,7 +8,7 @@
 	 (prefix-in html: (only-in website script))
 	 "./util.rkt")
 
-(define mode (make-parameter 'test))
+(define mode (make-parameter 'live))
 
 (define (stripe-price)
   (if (eq? (mode) 'test) 
@@ -24,7 +24,7 @@
   (page sign-up-2.html
         (ltm-content 
           #:head
-          (html:script src: "https://js.stripe.com/v2/")
+          (html:script src: "https://js.stripe.com/v3/")
 	  #:body-classes
           "page-template-tpl-faq page-template-tpl-faq-php page"
           (page-header
