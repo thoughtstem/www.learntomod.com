@@ -162,7 +162,7 @@
                           (li id: "menu-item-137" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-137"
                               (a href: "index.html@p=87.html" "Parents"))
                           (li id: "menu-item-136" class: "menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-104 current_page_item menu-item-136"
-                              (a href: "index.html@p=104.html" "Educators"))))
+                              (a href: "for-educators.html" "Educators"))))
                    (li id: "menu-item-476" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-476"
                        (a "Community")
                        (ul class: "sub-menu"
