@@ -40,7 +40,7 @@
 (define (html->list html-string)
     (convert-to-website-syntax
       (xml->xexpr
-	((eliminate-whitespace '(div span nav html body head header footer))
+	((eliminate-whitespace '(span nav html body head header footer))
 	 (document-element
 	   (read-xml (open-input-string html-string)))))))
 

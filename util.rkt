@@ -56,7 +56,7 @@
            (div class: "container cf"
                 content)))
 
-(define (ltm-content #:head (head-content '()) . stuff)
+(define (ltm-content #:head (head-content '()) #:body-classes (body-classes "") . stuff)
   (html
     (head 
       (meta 'charset: "utf-8")
@@ -71,7 +71,7 @@
       (html:script src: "wp-content/themes/learntomod/js/bxslider/jquery.bxslider.js@ver=5.1.4")
       (html:script src: "wp-content/themes/learntomod/js/scripts.js@ver=5.1.4")
       head-content)
-    (body
+    (body class: (string-append"page-template page-template-tpl-blocks page-template-tpl-blocks-php page " body-classes)
       (div id: "wrapper"
 	   (ltm-nav)
 	   stuff
