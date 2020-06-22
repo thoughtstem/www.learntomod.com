@@ -11,4 +11,9 @@ During the migration from Wordpress to this Racket-based static site generator, 
 find ./ -type f -exec sed -i -e 's/ONE-FISH/TWO-FISH/g' {} \;
 ```
 
+On MacOS you may get an error with the above command if you are incorporating special characters (`sed: RE error: illegal byte sequence`). Instead use: 
+```
+LC_ALL=C find ./ -type f -exec sed -i -e 's/ONE-FISH/TWO-FISH/g' {} \;
+```
+
 **Note: If you run this command outside the out directory, you may corrupt your git index files!**
