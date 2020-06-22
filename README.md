@@ -10,3 +10,5 @@ During the migration from Wordpress to this Racket-based static site generator, 
 ```
 find ./ -type f -exec sed -i -e 's/ONE-FISH/TWO-FISH/g' {} \;
 ```
+
+**Note: If you run this command outside the out directory, you may corrupt your git index files!**
