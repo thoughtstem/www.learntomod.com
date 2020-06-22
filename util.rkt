@@ -90,7 +90,7 @@
 		      (a "Product")
 		      (ul class: "sub-menu"
 			  (li id: "menu-item-612" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-612"
-			      (a href: "index.html@p=15.html" "Features"))
+			      (a href: "features" "Features"))
 			  (li id: "menu-item-765" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-765"
 			      (a href: "http://www.learntomod.com/features/#pricing" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://www.learntomod.com/features/#pricing', 'Pricing');" "Pricing"))
 			  (li id: "menu-item-1714" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"
