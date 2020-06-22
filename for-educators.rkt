@@ -53,7 +53,7 @@
                          (p style: "text-align: center;" (a class: "button" href: "mailto:contact@learntomod.com" "Get Started Today " (i class: "icons8-forward")))  
                          
                          )
-            (map-jumbo #:id "block4" #:style "margin-bottom:0px;" 
+            #;(map-jumbo #:id "block4" #:style "margin-bottom:0px;" 
                        (h2 "Educators in Over 70 Countries Use LearnToMod to Teach Coding")
                        (div id: "map")
                       ;;SCRIPT FOR GOOGLE MAP MISSING 
@@ -62,25 +62,25 @@
               (h2 "ADDITIONAL TEACHER RESOURCES")
               (ul style: "display:flex; flex-direction:row; justify-content: center;"
                 (li
-                  (a href: "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5012469068/original/Guide_to_LearnToMod_Teacher_Accounts_Apr2015.pdf?AWSAccessKeyId=AKIAJ2JSYZ7O3I4JO6DA&Expires=1461344937&Signature=bDNiZt5sQm%2B1mF35t5BOQOzrPPI%3D&response-content-type=application%2Fpdf" target: "_blank"
+                  (a href: "https://drive.google.com/file/d/1Zk_uyMMvEgGWTpCL9SuIwTu1P6FCOTu2/view?usp=sharing" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/LTM-Teachers-Guide.png" alt: "LTM Teachers Guide")
                     "Guide to Using Your Teacher Account"
                     )
                   )
                 (li
-                  (a href: "http://www.learntomod.com/about/contact/" target: "_blank"
+                  (a href: "contact-us" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/Customer_Support_Email_new.png" alt: "E-mail our Customer Support")
                     "E-mail Customer Support"
                     )
                   )
                 (li
-                  (a href: "http://www.learntomod.com/parents-educators/parents/#block5" target: "_blank"
+                  (a href: "index.html@p=87.html#block5" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/book_border.png" alt: "book cover for modding minecraft for dummies book")
                     "Looking for a Classroom Textbook? Minecraft Modding for Kids"
                     )
                   )
                 (li
-                  (a href: "http://www.learntomod.com/about/faq/" target: "_blank"
+                  (a href: "faq" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/FAQ.png" alt: "FAQ Page image")
                     "Find Common Questions & Answers"
                     )
