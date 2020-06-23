@@ -206,7 +206,7 @@
                      (li id: "menu-item-75" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                          (a href: "privacy-policy.html" "Privacy Policy"))
                      (li id: "menu-item-74" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-74"
-                         (a href: "index.html@p=72.html" "Terms of Use"))))
+                         (a href: "terms.html" "Terms of Use"))))
                (p style: "clear:both; padding-left: 10px; padding-top: 10px; color: gray; font-size: 14px;" "LearnToMod IS NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.")
                )
           )
