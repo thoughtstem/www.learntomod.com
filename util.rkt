@@ -202,9 +202,9 @@
                (nav
                  (ul id: "menu-sub-footer-menu" class: "menu"
                      (li id: "menu-item-76" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-76"
-                         (a href: "index.html@p=68.html" "Community Guidelines"))
+                         (a href: "community-guidelines.html" "Community Guidelines"))
                      (li id: "menu-item-75" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
-                         (a href: "index.html@p=70.html" "Privacy Policy"))
+                         (a href: "privacy-policy.html" "Privacy Policy"))
                      (li id: "menu-item-74" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-74"
                          (a href: "index.html@p=72.html" "Terms of Use"))))
                (p style: "clear:both; padding-left: 10px; padding-top: 10px; color: gray; font-size: 14px;" "LearnToMod IS NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.")
