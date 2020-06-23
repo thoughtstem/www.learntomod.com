@@ -20,10 +20,10 @@ LC_ALL=C find ./ -type f -exec sed -i -e 's/ONE-FISH/TWO-FISH/g' {} \;
 
 On MacOS, you the `sed` command may produce copies of files with a -e suffix. These files can be found with:
 ```
-find . -name "*.bak" -type f
+find . -name "*-e" -type f
 ```
   
 And deleted with:
 ```
-find . -name "*.bak" -type f -delete
+find . -name "*-e" -type f -delete
 ```
