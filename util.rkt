@@ -189,8 +189,8 @@
           (div id: "sub-footer" class: "cf"
                (div style: "float:left;"
                     (p style: "margin-left: 14px; margin-bottom: -10px;" "Created by")
-                    (a href: "http://multidimensionalgames.com" target: "_blank"
-                       (img width: "300" src: "wp-content/themes/learntomod/images/logo_text.svg" alt: "Multi-Dimensional Games Logo")
+                    (a href: "https://www.thoughtstem.com" target: "_blank"
+                       (img src: "https://www.thoughtstem.com/img/logo.png" style: "padding-left:15px; padding-top:12px;" alt: "ThoughtSTEM Logo")
                        ))
                (div id: "social"
                     (a href: "https://www.facebook.com/learntomod"
