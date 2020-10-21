@@ -4,7 +4,6 @@
 
 (require website-js
 	 "./util.rkt"
-	 "./html-to-racket.rkt"
 	 )
 	 
 (define (for-educators)
