@@ -154,8 +154,7 @@
                                (a href: "https://www.learntomod.com/features/#section4" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section4', 'Texture Pack Painter');" "Texture Pack Painter"))
                            (li id: "menu-item-135" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-135"
                                (a href: "https://www.learntomod.com/features/#section5" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'https://www.learntomod.com/features/#section5', 'Schematics Builder');" "Schematics Builder"))
-                           (li id: "menu-item-1732" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"
-                               (a href: "index.html@p=1545.html" "Online Courses"))))
+                           ))
                    (li id: "menu-item-475" class: "menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-475"
                        (a "Parents & Educators")
                        (ul class: "sub-menu"
@@ -166,9 +165,6 @@
                    (li id: "menu-item-476" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-476"
                        (a "Community")
                        (ul class: "sub-menu"
-                           (li id: "menu-item-152" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-152"
-                               (a href: "http://forum.learntomod.com/" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://forum.learntomod.com/', 'Official LearnToMod Forum ');" "Official LearnToMod Forum"
-                                  (i class: "icons8-external-link")))
                            (li id: "menu-item-155" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-155"
                                (a href: "blog/index.html" "News & Updates"))))
                    (li id: "menu-item-37" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-37"

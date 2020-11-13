@@ -61,7 +61,7 @@
               (h2 "ADDITIONAL TEACHER RESOURCES")
               (ul style: "display:flex; flex-direction:row; justify-content: center;"
                 (li
-                  (a href: "https://drive.google.com/file/d/1Zk_uyMMvEgGWTpCL9SuIwTu1P6FCOTu2/view?usp=sharing" target: "_blank"
+                  (a href: "https://drive.google.com/file/d/1fBNkoxuC7AiKLB9aojvGfB23qYGTE73J/view?usp=sharing" target: "_blank"
                     (img src: "wp-content/uploads/2016/03/LTM-Teachers-Guide.png" alt: "LTM Teachers Guide")
                     "Guide to Using Your Teacher Account"
                     )
