@@ -105,9 +105,6 @@
 		  (li id: "menu-item-472" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-472"
 		      (a "Community")
 		      (ul class: "sub-menu"
-			  (li id: "menu-item-157" class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-157"
-			      (a href: "http://forum.learntomod.com/" 'onclick: "__gaTracker('send', 'event', 'outbound-widget', 'http://forum.learntomod.com/', 'Official LearnToMod Forum ');" "Official LearnToMod Forum"
-				 (i class: "icons8-external-link")))
 			  (li id: "menu-item-156" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-156"
 			      (a href: "blog/index.html" "Blog"))))
 		  (li id: "menu-item-618" class:"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-618"
@@ -123,7 +120,7 @@
 		      (a "Support")
 		      (ul class: "sub-menu"
 			  (li id: "menu-item-165" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-165"
-			      (a href: "index.html@p=160.html" "FAQ"))
+			      (a href: "faq/" "FAQ"))
 			  (li id: "menu-item-164" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-164"
 			      (a href: "index.html@p=162.html" "Contact Us"))))
 		  (li id: "menu-item-32" class:"divider account menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
@@ -178,7 +175,7 @@
                        (a href: "index.html@p=104.html#" "Support")
                        (ul class: "sub-menu"
                            (li id: "menu-item-167" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
-                               (a href: "index.html@p=160.html" "FAQ"))
+                               (a href: "faq/" "FAQ"))
                            (li id: "menu-item-166" class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-166"
                                (a href: "index.html@p=162.html" "Contact Us")))))
                )
